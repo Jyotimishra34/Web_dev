@@ -1,0 +1,83 @@
+                    div {
+                        border: 3px solid black;
+                        color: black;
+                    }
+                    
+                    p {
+                        color: white;
+                    }
+                    
+                    #Box1 {
+                        height: 150px;
+                        width: 250px;
+                        text-align: center;
+                        background-color: green;
+                        font-size: 15px;
+                        position: static;
+                        /*by default ye static hi hote hai*/
+                        background-image: url("sea_image.jpg");
+                        background-size: contain;
+                    }
+                    
+                    #Box2 {
+                        height: 80px;
+                        width: 80px;
+                        text-align: center;
+                        background-color: yellow;
+                        margin-left: 20%;
+                        font-size: 2em;
+                        /* 2times of box 1 (parents) font size */
+                        width: 5rem;
+                        /* font size of elemnt(self) */
+                        /* height: 100vh; */
+                        /* length of box will be equal to size of page*/
+                    }
+                    
+                    #Box3 {
+                        height: 150px;
+                        width: 250px;
+                        text-align: center;
+                        background-color: blueviolet;
+                        position: relative;
+                        top: 10px;
+                        left: 20px;
+                        background-image: url("Wall_decor.jpg");
+                        background-size: contain;
+                    }
+                    
+                    #Box4 {
+                        height: 150px;
+                        width: 250px;
+                        text-align: center;
+                        background-color: brown;
+                        position: relative;
+                        top: 15px;
+                        left: 15px;
+                        background-image: url("Nature_image.jpg");
+                        background-image: contain;
+                    }
+                    
+                    #Box5 {
+                        height: 150px;
+                        width: 250px;
+                        text-align: center;
+                        background-color: orange;
+                        position: fixed;
+                        /* z-index: -3; */
+                    }
+                    
+                    #Box6 {
+                        height: 150px;
+                        width: 250px;
+                        text-align: center;
+                        background-color: hsl(309, 61%, 41%);
+                        position: fixed;
+                        top: 0%;
+                        background-image: url(library_photo.jpg);
+                        background-size: contain;
+                    }
+                    
+                    body {
+                        background-image: url("Crane_photo.jpg");
+                        background-image: cover;
+                    }

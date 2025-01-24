@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+
+
+/* lets learn together */
+
+
+/* id selector */
+
+div {
+    color: aqua;
+}
+
+p1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.myclass {
+    color: brown;
+}
+
+
+/* Group selector */
+
+#first,
+#second {
+    color: blue;
+}
