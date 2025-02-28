@@ -1,0 +1,33 @@
+div {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+li {
+    /* for removing bullet points */
+    list-style-type: none;
+    display: inline;
+}
+
+.Outer {
+    height: 200px;
+    width: 180px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inner {
+    height: 100px;
+    width: 80px;
+    background-color: rgb(174, 150, 55);
+    align-self: flex-start;
+    /*it has higher priority as compare to align-items:  */
+}

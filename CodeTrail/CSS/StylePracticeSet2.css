@@ -1,0 +1,26 @@
+* {
+    font-family: "Times New Roman";
+}
+
+h1 {
+    color: rgb(29, 29, 197);
+    text-align: center;
+    text-decoration: rgb(255, 30, 0) wavy underline;
+    text-transform: capitalize;
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}
+
+#one {
+    font-size: 20px;
+    font-family: calibri;
+    text-align: center;
+    text-decoration: rgb(82, 3, 82);
+    text-transform: lowercase;
+}

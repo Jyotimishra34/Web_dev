@@ -1,0 +1,127 @@
+/* body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    /* outer box */
+
+
+/* width: 600px;
+    height: 300px;
+    display: flex; */
+
+
+/* using flex box property */
+
+
+/* flex-direction: row; */
+
+
+/* flex-direction: row-reverse; */
+
+
+/* flex-direction: column; */
+
+
+/* flex-direction: column-reverse; */
+
+
+/* FLEX PROPERTIES */
+
+
+/* justify-content: flex-start; */
+
+
+/* /* justify-content: flex-end; */
+
+
+/* justify-content: center; */
+
+
+/* justify-content: space-around;*/
+
+
+/* justify-content: space-between; */
+
+
+/* justify-content: space-evenly; */
+
+
+/* flex-wrap: wrap; */
+
+
+/* align-items: flex-start; */
+
+
+/* align-content: center; */
+
+
+/* align-content: flex-end; */
+
+
+/* align-content: flex-start; */
+
+
+/* }
+
+#Box1 { 
+    background-color: pink;
+    flex-grow: 1;
+}
+
+#Box2 {
+    height: 200px;
+    /* flex-shrink: 2; */
+
+
+/* flex-grow: 2;
+    background-color: burlywood;
+}
+
+#Box3 {
+    height: 100px;
+    background-color: peru;
+}
+
+#Box4 {
+    height: 150px;
+    background-color: yellow;
+}
+
+#Box5 {
+    height: 50px;
+    background-color: rgb(84, 168, 84);
+    align-self: flex-start;
+} */
+
+div {
+    color: white;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+@media (width: 650px) {
+    div {
+        background-color: aqua;
+    }
+}
+
+@media (max-width: 600px) {
+    div {
+        background-color: green;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    div {
+        background-color: black;
+    }
+}
