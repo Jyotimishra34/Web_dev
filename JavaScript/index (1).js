@@ -320,47 +320,4 @@ for (let num = 0; num <= 100; num++)
 
 
 
-    <
-    !DOCTYPE html >
-    <
-    html lang = "en" >
-
-    <
-    head >
-    <
-    meta charset = "UTF-8" >
-    <
-    meta name = "viewport"
-content = "width=device-width, initial-scale=1.0" >
-    <
-    title > Document < /title> <
-    script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" > < /script> <
-    script >
-    $(document).ready(function() {
-        $("#hide").click(function() {
-            $("#text").hide();
-        });
-        $("#show").click(function() {
-            $("#text").slideDown();
-        });
-    }); <
-/script>
-
-
-<
-script >
-    $(document).ready(function() {
-        $("#fadIn").click(function() {
-            $("#div1").fadeIn();
-            $("#div2").fadeIn("slow");
-            $("#div3").fadeIn(3000);
-        });
-    });
-$(document).ready(function() {
-    $("#fadout").click(function() {
-        $("#div1").fadeOut(3000);
-        $("#div2").fadeOut("slow");
-        $("#div3").fadeOut(1000);
-    });
-}); <
-/script>
+   

@@ -30,6 +30,15 @@ const Product = {
 
 };
 
+const profile={
+    username: "@jyotimishra",
+    followers: 423,
+    isFollow: false,
+    following: 423,
+
+};
+
+console.log(profile);
 console.log(Product);
 
 
