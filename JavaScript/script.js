@@ -72,3 +72,19 @@ if(mode === "dark"){
     }
     console.log(COLOR);
 
+
+
+    // TERNARY OPERATOR
+    let marks = 60;
+  //  result = marks >35 ? "pass" : "fail";
+  result = marks >35 ?  console.log("pass" ):  console.log("fail");
+  //  console.log(result);
+
+
+
+  //Qs1. Get user to input a number using prompt(“Enter a number:”). 
+  // Check if the number is a multiple of 5 or not.
+
+
+
+
